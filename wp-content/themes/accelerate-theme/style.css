@@ -491,6 +491,7 @@ h1 {
 #masthead h1 {
     float: left;
     font-size: 20px;
+    font-weight: normal;
     margin: 0;
     text-transform: uppercase;
 }
@@ -898,6 +899,20 @@ input::-webkit-input-placeholder {
 .navigation .pages {
 	color: #a6a6a6;
 }
+
+.site-navigation {
+	line-height: 5px;
+}
+
+.nav-menu {
+	font: 0.7em 'OpenSans', Arial, sans-serif;
+	font-weight: lighter;
+	text-transform: uppercase;
+	height: 25px;
+	display: inline-block;
+	padding-top: 5px;
+}
+
 
 /* Individual Post */
 .individual-post {
