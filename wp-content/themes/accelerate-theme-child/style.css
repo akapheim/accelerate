@@ -125,3 +125,174 @@ div.case-study-images img {
 	margin-bottom: 50px;
 	border: 1px solid #dddddd;
 }
+
+
+/* Ninja Forms styling
+*/
+
+/* make entire form narrower
+*/
+#contactus {
+    width: 70%;
+    margin: 0 auto;
+}
+#contactus h2 {
+    font-size: large;
+}
+#contactus p {
+	font-size: smaller;
+}
+
+/* add styling for NAME and email boxes floating side by side
+*/
+#ninja_forms_field_1_div_wrap {
+    width: 45% !important;
+    float: left;
+    clear: left;
+}
+
+#ninja_forms_field_1_label {
+    font-weight: normal;
+    font-size: smaller;
+}
+
+/* add styling for name and EMAIL boxes floating side by side
+*/
+#ninja_forms_field_2_div_wrap {
+    width: 45% !important;
+    float: right;
+}
+
+#ninja_forms_field_2_label {
+    font-weight: normal;
+    font-size: smaller;
+}
+
+/* styling for message box 
+*/
+#ninja_forms_field_3_div_wrap,
+#ninja_forms_field_3; {
+	clear: both;
+}
+
+#ninja_forms_field_3_label {
+    font-weight: normal;
+    font-size: smaller;
+    clear: both;  
+}
+
+/* add styling for send button
+*/
+#ninja_forms_field_5 {
+    float: right;
+    background-color: #45ac9d;
+    border: none;
+    width: 175px;
+    height: 50px;
+    color: white; 
+}
+
+/* About page
+*/
+.services {
+    background: url("img/taxi-photo.jpg") no-repeat scroll left center / cover rgba(0, 0, 0, 0);
+    height: 440px;
+    margin: 0 0 80px;
+    padding: 100px 0; 
+}
+
+div.about-hero {
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	color: white;
+	width: 35%;
+}
+
+span.blue-word {
+	color: #45ac9d;
+}
+
+div.service-intro-container {
+	text-align: center;
+}
+
+div.services-container_1 {
+	height: auto;
+	display: flex;
+	align-items: center;
+}
+
+div.icon_1 {
+	float: left;
+}
+
+div.description_1 {
+	clear: right;
+}
+
+div.services-container_2 {
+	height: auto;
+	display: flex;
+	align-items: center;
+}
+
+div.icon_2 {
+	float: right;
+}
+
+div.description_2 {
+	clear: left;
+}
+
+div.services-container_3 {
+	height: auto;
+	display: flex;
+	align-items: center;
+}
+
+div.icon_3 {
+	float: left;
+}
+
+div.description_3 {
+	clear: right;
+}
+
+div.services-container_4 {
+	height: auto;
+	display: flex;
+	align-items: center;
+}
+
+div.icon_4 {
+	float: right;
+}
+
+div.description_4 {
+	clear: left;
+}
+
+
+div.work-with-container {
+	margin-left: auto;
+	margin-right: auto;
+	border-top: 1px solid #d3d3d3;
+}
+
+div.work-text h5 {
+	float: left;
+	margin: 37px 0px 24px 200px;
+}
+
+div.contact-button a {
+    float: left;
+    background-color: #45ac9d;
+    border: none;
+    width: 175px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    color: white;
+    margin: 24px;
+}
