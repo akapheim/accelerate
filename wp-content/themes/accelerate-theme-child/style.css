@@ -20,6 +20,14 @@
     padding: 100px 0;
 }
 
+.main-content {
+	margin-left: 50px;
+}
+
+aside.sidebar {
+	width: 20%;
+}
+
 #masthead {
     background: none repeat scroll 0 0 #45ac9d;
 }
@@ -51,12 +59,35 @@
 }
 
 .blog-post .read-more-link {
-	font-size: 24px;
+	font-size: 18px;
 	font-family: 'Montserrat';
 	font-weight: bold;
 	color: #45ac9d;
 	text-transform: uppercase;
 }
+
+.widget-area {
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-justify-content: center;
+	-moz-justify-content: center;
+	justify-content: center;
+	-webkit-align-items: center;
+	-moz-align-items: center;
+	align-items: center;
+	-webkit-flex-wrap: wrap;
+	-moz-flex-wrap: wrap;
+	flex-wrap: wrap;
+}
+
+.mc4wp-form-fields input {
+	background-color: #45ac9d;
+	color: white;
+}
+
 
 /* Featured Work on Homepage */
 
@@ -295,4 +326,34 @@ div.contact-button a {
     line-height: 50px;
     color: white;
     margin: 24px;
+}
+
+
+/*	404 page styling
+*/
+div.page {
+    background: url("img/unfinished-salad.jpg") no-repeat scroll left center / cover rgba(0, 0, 0, 0);
+    height: 440px;
+    margin: 0 0 60px;
+    padding: 100px 0; 
+}
+div.page h3 {
+	width: 600px;
+	margin-top: 300px;
+	margin-right: auto;
+	text-align: center;
+	font-weight: lighter;
+	color: white;
+	letter-spacing: 0.2em;
+}
+
+div.message {
+	width: 75%;
+	line-height: 1.3em;
+	margin-top: 10px;
+	margin-bottom: 75px;
+}
+
+div.message a {
+	color: #45ac9d;
 }
